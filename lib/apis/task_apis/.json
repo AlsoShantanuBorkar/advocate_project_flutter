@@ -1,0 +1,108 @@
+{
+  "error": {
+    "errors": {
+      "taskDescription": {
+        "name": "ValidatorError",
+        "message": "Path `taskDescription` is required.",
+        "properties": {
+          "message": "Path `taskDescription` is required.",
+          "type": "required",
+          "path": "taskDescription"
+        },
+        "kind": "required",
+        "path": "taskDescription"
+      },
+      "caseNumber": {
+        "name": "ValidatorError",
+        "message": "Path `caseNumber` is required.",
+        "properties": {
+          "message": "Path `caseNumber` is required.",
+          "type": "required",
+          "path": "caseNumber"
+        },
+        "kind": "required",
+        "path": "caseNumber"
+      },
+      "casePersonName": {
+        "name": "ValidatorError",
+        "message": "Path `casePersonName` is required.",
+        "properties": {
+          "message": "Path `casePersonName` is required.",
+          "type": "required",
+          "path": "casePersonName"
+        },
+        "kind": "required",
+        "path": "casePersonName"
+      },
+      "relatedTo": {
+        "name": "ValidatorError",
+        "message": "Path `relatedTo` is required.",
+        "properties": {
+          "message": "Path `relatedTo` is required.",
+          "type": "required",
+          "path": "relatedTo"
+        },
+        "kind": "required",
+        "path": "relatedTo"
+      },
+      "assignedTo": {
+        "name": "ValidatorError",
+        "message": "Path `assignedTo` is required.",
+        "properties": {
+          "message": "Path `assignedTo` is required.",
+          "type": "required",
+          "path": "assignedTo"
+        },
+        "kind": "required",
+        "path": "assignedTo"
+      },
+      "deadline": {
+        "name": "ValidatorError",
+        "message": "Path `deadline` is required.",
+        "properties": {
+          "message": "Path `deadline` is required.",
+          "type": "required",
+          "path": "deadline"
+        },
+        "kind": "required",
+        "path": "deadline"
+      },
+      "startDate": {
+        "name": "ValidatorError",
+        "message": "Path `startDate` is required.",
+        "properties": {
+          "message": "Path `startDate` is required.",
+          "type": "required",
+          "path": "startDate"
+        },
+        "kind": "required",
+        "path": "startDate"
+      },
+      "subject": {
+        "name": "ValidatorError",
+        "message": "Path `subject` is required.",
+        "properties": {
+          "message": "Path `subject` is required.",
+          "type": "required",
+          "path": "subject"
+        },
+        "kind": "required",
+        "path": "subject"
+      },
+      "taskId": {
+        "name": "ValidatorError",
+        "message": "Path `taskId` is required.",
+        "properties": {
+          "message": "Path `taskId` is required.",
+          "type": "required",
+          "path": "taskId"
+        },
+        "kind": "required",
+        "path": "taskId"
+      }
+    },
+    "_message": "Task validation failed",
+    "name": "ValidationError",
+    "message": "Task validation failed: taskDescription: Path `taskDescription` is required., caseNumber: Path `caseNumber` is required., casePersonName: Path `casePersonName` is required., relatedTo: Path `relatedTo` is required., assignedTo: Path `assignedTo` is required., deadline: Path `deadline` is required., startDate: Path `startDate` is required., subject: Path `subject` is required., taskId: Path `taskId` is required."
+  }
+}
